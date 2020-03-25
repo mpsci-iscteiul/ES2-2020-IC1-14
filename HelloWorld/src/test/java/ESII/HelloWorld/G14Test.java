@@ -10,7 +10,7 @@ public class G14Test {
 	int a=0;
 	int b=2;
 	
-	G14 g = new G14(a, b);
+	G14 g = new G14(a, b); 
 
 /**
  * testar change
