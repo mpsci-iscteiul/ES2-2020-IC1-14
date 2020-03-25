@@ -1,28 +1,18 @@
 package ESII.HelloWorld;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class G14Test {
+class G14Test {
 
-	
 	int a=0;
 	int b=2;
 	
-	G14 g = new G14(a, b); 
+	G14 g = new G14(a, b);
 
-/**
- * testar change
- */
-	@Test
-	public void testChange() {
-		assertEquals(0,g.a);
-		assertEquals(0,g.b);
-		g.change(10);
-		assertEquals(20,g.a);
-		assertEquals(40,g.b);
-	}
+
+
 
 	@Test
 	public void testGetA() {
@@ -43,5 +33,4 @@ public class G14Test {
 	public void testSetB() {
 		g.setB(b);
 	}
-
 }
