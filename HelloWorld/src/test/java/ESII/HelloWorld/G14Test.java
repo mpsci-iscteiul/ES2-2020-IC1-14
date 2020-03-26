@@ -12,7 +12,11 @@ class G14Test {
 	G14 g = new G14(a, b);
 
 
-
+	@Test
+	public void testChange() {
+		assertEquals(0,g.a);
+		assertEquals(2,g.b);
+	}
 
 	@Test
 	public void testGetA() {
