@@ -2,4 +2,4 @@ Manifest-Version: 1.0
 
 Created-By: Me
 
-Main-Class: HelloWorld-0.0.1-SNAPSHOT
+Main-Class: App
